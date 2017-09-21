@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script>
+    function kanyeIn() {
+      document.getElementById('kanye').style.boxShadow = "10px 10px 10px #d3d3d3";
+    }
+    function kanyeOut() {
+      document.getElementById('kanye').style.boxShadow = "10px 10px 10px #123456";
+    }
+       function sadKanyeIn() {
+      document.getElementById('sadKanye').style.boxShadow = "10px 10px 10px #d3d3d3";
+    }
+    function sadKanyeOut() {
+      document.getElementById('sadKanye').style.boxShadow = "10px 10px 10px #123456";
+    }
+  </script>
+  <style>
+    #kanye {
+    float: right;
+    }
+  </style>
+    
+    </head>
+  
+  <body>
+    <img src="http://static.celebuzz.com/uploads/2015/05/kanye-west-smiling-nba-game-051115.jpg" id="kanye" onmouseOver="kanyeIn()" width="30%" onmouseOut="kanyeOut()">
+    
+    <img src="http://ksassets.timeincuk.net/wp/uploads/sites/55/2016/07/2014KanyeWestGetty463775445_10060214-1.jpg" id="sadKanye" onmouseOver="sadKanyeIn()" width="30%" onmouseOut="sadKanyeOut()">
+  
+  </body>
+</html>
